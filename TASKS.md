@@ -9,7 +9,7 @@ Each task has its own folder under the `tasks/` directory for detailed documenta
 
 ### 🟢 Task 1: Splash Screen, Login & Registration (with Validation)
 **Status:** ✅ Completed  
-**Folder:** [`tasks/task1-login-registration`](./tasks/task1-login-registration/)  
+**Folder:** [`tasks/task1-login-registration`](./Project-tasks/task1-login-registration/)  
 **Summary:**
 - Added a clean **splash screen** to introduce the app
 - Built **login and registration screens** using `EditText`, `Button`, and basic UI components in **XML**
