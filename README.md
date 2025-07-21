@@ -19,6 +19,14 @@ During this internship, I worked on real-world Android development tasks and gai
 
 ---
 
+## 🧾 Certificate
+
+You can view my official internship certificate from **MountReach Pvt. Ltd.**  
+📄 [View Certificate on Google Drive](https://drive.google.com/file/d/11Seo-uQ1mgjaLQHK3DSWF2lQDNroB1II/view?usp=sharing)
+
+> *Note: The certificate is hosted securely on Google Drive with view-only access.*
+
+
 ## 📚 Project Organization
 
 All tasks are documented clearly and organized inside the repository.  
