@@ -120,6 +120,22 @@ Note: This feature enhances user personalization and helps in identifying users 
 
 ------------------------------------------------------------
 
+🟢 Task 9: QR Code Generator  
+Status: ✅ Completed  
+Folder: Project-tasks/task9-qr-generator  
+Summary:  
+- Developed a screen to dynamically generate a QR code using user data  
+- Fetched the stored `username` from SharedPreferences after login  
+- Used the ZXing (Zebra Crossing) library to generate a scannable QR bitmap  
+- Displayed QR image in a full-screen responsive layout using ImageView  
+- Included user greeting (`Welcome <username>`) and app branding (e.g., "Polytechnic Amravati")  
+- QR can be scanned by any standard scanner; content is plain text (username only)  
+- Added a back button to return to the home screen smoothly  
+- Ensured logic is encapsulated in a clean QRActivity.java with proper error handling  
+Note: This feature can be extended to encode more complex data like authentication tokens or URLs in future versions.
+
+------------------------------------------------------------
+
 📂 Note: From Task 3 onwards, only files with major logic/code changes are uploaded to avoid duplication. Supporting files may exist in earlier task folders.  
 📱 Device Note: The project was continued and pushed to GitHub after a year due to a device change post-internship. Folder contents are restored manually and logically structured.
 
