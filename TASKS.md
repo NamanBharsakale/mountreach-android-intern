@@ -32,5 +32,21 @@ Each task has its own folder under the `Project-tasks/` directory for detailed d
 - Integrated **Lottie animations** to enhance dialog presentation and splash experience
 - Added **Back Stack handling** for smoother navigation and lifecycle awareness
 
+---
+
+### 🟢 Task 3: Bottom Navigation using Fragments
+**Status:** ✅ Completed  
+**Folder:** [`Project-tasks/task3-bottom-navigation`](./Project-tasks/task3-bottom-navigation/)  
+**Summary:**
+- Integrated **Bottom Navigation** using `BottomNavigationView` and `menu_bottom_navigation.xml`
+- Used **Fragments** for switching between main sections of the app
+- Managed **Fragment Transactions** manually using `FragmentManager` for better control
+- Ensured UI consistency and smooth transitions
+
+> 📂 **Note:** From **Task 3 onwards**, only files with major logic/code changes are uploaded to avoid duplication. Supporting files may exist in earlier task folders.  
+> 📱 **Device Note:** The project was continued and pushed to GitHub after a year due to a device change post-internship. Folder contents are restored manually and logically structured.
+
+---
+
 
 > “Late is better than never — learning is always worth documenting.” 💡
