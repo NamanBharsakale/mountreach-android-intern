@@ -42,6 +42,8 @@ Each task has its own folder under the `Project-tasks/` directory for detailed d
 - Used **Fragments** for switching between main sections of the app
 - Managed **Fragment Transactions** manually using `FragmentManager` for better control
 - Ensured UI consistency and smooth transitions
+ 📝 **Note:** In this task, the app name appears as **My Aircooler** due to previous iteration. It refers to the same base app **Epic Verse** continued for the internship tasks.
+
 
 > 📂 **Note:** From **Task 3 onwards**, only files with major logic/code changes are uploaded to avoid duplication. Supporting files may exist in earlier task folders.  
 > 📱 **Device Note:** The project was continued and pushed to GitHub after a year due to a device change post-internship. Folder contents are restored manually and logically structured.
