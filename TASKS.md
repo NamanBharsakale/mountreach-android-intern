@@ -3,6 +3,8 @@
 This file tracks the tasks completed during my internship at **MountReach Pvt. Ltd.**, along with their status and brief notes.  
 Each task has its own folder under the `Project-tasks/` directory for detailed documentation.
 
+> 📱 The app **Epic Verse** is currently a locally run Android application and has not been deployed.
+
 ---
 
 ## 📌 Completed Tasks
