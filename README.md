@@ -32,6 +32,9 @@ You can view my official internship certificate from **MountReach Pvt. Ltd.**
 All tasks are documented clearly and organized inside the repository.  
 Each task includes code snippets, folder structure references, screenshots, and brief explanations.
 
+> 📱 The app **Epic Verse** is currently a locally run Android application and has not been deployed.
+
+
 📌 **See the `TASKS.md` file** for a complete list of tasks, progress, and detailed tracking.
 
 ```bash
