@@ -1,5 +1,8 @@
 package com.example.mysplashscr;
 
+
+// Also i have make some changes in gradle
+
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ObjectAnimator;
