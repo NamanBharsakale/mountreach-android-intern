@@ -9,7 +9,7 @@ Each task has its own folder under the `Project-tasks/` directory for detailed d
 
 📌 Completed Tasks
 
-🟢 Task 1: Splash Screen, Login & Registration (with Validation)
+🟢 Task 1: Splash Screen, Login & Registration (with Validation)  
 Status: ✅ Completed  
 Folder: Project-tasks/task1-login-registration  
 Summary:
@@ -87,6 +87,22 @@ Summary:
 - Handled lifecycle events (pause/resume) for stable playback  
 - Ensured all assets (images, video) are stored in res/drawable and res/raw respectively  
 Note: The image slider and video are part of a visually rich media section inside a scrollable layout
+
+------------------------------------------------------------
+
+🟢 Task 7: Speech-to-Text Feature  
+Status: ✅ Completed  
+Folder: Project-tasks/task7-speech-to-text  
+Summary:
+- Implemented speech recognition using Android’s built-in SpeechRecognizer API  
+- Added voice input button that triggers microphone and starts listening  
+- Captured spoken words and converted them to live text in a TextView  
+- Used Intent-based recognition (RecognizerIntent) with proper language model  
+- Displayed intermediate and final results to the user in real-time  
+- Integrated error handling for unsupported devices or speech failures  
+- Ensured app handles permission checks for microphone access  
+- Built a clean and accessible UI with minimal distractions  
+Note: This feature lays the foundation for future AI/NLP-based voice command modules
 
 ------------------------------------------------------------
 
