@@ -12,7 +12,7 @@ Each task has its own folder under the `Project-tasks/` directory for detailed d
 🟢 Task 1: Splash Screen, Login & Registration (with Validation)  
 Status: ✅ Completed  
 Folder: Project-tasks/task1-login-registration  
-Summary:
+Summary:  
 - Added a clean splash screen to introduce the app  
 - Built login and registration screens using EditText, Button, and basic UI components in XML  
 - Implemented input validation (email, password, confirm password, etc.)  
@@ -25,7 +25,7 @@ Summary:
 🟢 Task 2: Navigation & Dialog Features  
 Status: ✅ Completed  
 Folder: Project-tasks/task2-navigation-dialogs  
-Summary:
+Summary:  
 - Implemented double-tap back press to exit the app safely  
 - Created a "one-time login" logic (user shown welcome screen/dialog only on first login)  
 - Designed a custom welcome dialog menu using AlertDialog  
@@ -37,7 +37,7 @@ Summary:
 🟢 Task 3: Bottom Navigation using Fragments  
 Status: ✅ Completed  
 Folder: Project-tasks/task3-bottom-navigation  
-Summary:
+Summary:  
 - Integrated Bottom Navigation using BottomNavigationView and menu_bottom_navigation.xml  
 - Used Fragments for switching between main sections of the app  
 - Managed Fragment Transactions manually using FragmentManager for better control  
@@ -49,7 +49,7 @@ Note: In this task, the app name appears as "My Aircooler" due to previous itera
 🟢 Task 4: Google Maps Integration  
 Status: ✅ Completed  
 Folder: Project-tasks/task4-google-map  
-Summary:
+Summary:  
 - Integrated Google Maps SDK using SupportMapFragment  
 - Placed custom markers for office and college locations with icons  
 - Zoomed and animated camera focus between markers  
@@ -63,7 +63,7 @@ Note: API key is hidden.
 🟢 Task 5: Music Player UI & Media Playback  
 Status: ✅ Completed  
 Folder: Project-tasks/task5-music-player  
-Summary:
+Summary:  
 - Designed a CardView-based Music Player UI with ImageView, TextView, and SeekBar  
 - Used custom drawables for Play, Pause, Forward, and Backward buttons  
 - Implemented local audio playback using MediaPlayer  
@@ -78,7 +78,7 @@ Note: Audio and image resources used are stored locally within res/raw and res/d
 🟢 Task 6: Image Slider & Video Playback  
 Status: ✅ Completed  
 Folder: Project-tasks/task6-image-slider-video  
-Summary:
+Summary:  
 - Integrated an Image Slider/Carousel using the third-party library ImageSlideshow  
 - Images automatically slide with smooth transitions and allow manual swipe  
 - Used Lottie animation while media loads for enhanced user feedback  
@@ -93,7 +93,7 @@ Note: The image slider and video are part of a visually rich media section insid
 🟢 Task 7: Speech-to-Text Feature  
 Status: ✅ Completed  
 Folder: Project-tasks/task7-speech-to-text  
-Summary:
+Summary:  
 - Implemented speech recognition using Android’s built-in SpeechRecognizer API  
 - Added voice input button that triggers microphone and starts listening  
 - Captured spoken words and converted them to live text in a TextView  
@@ -103,6 +103,20 @@ Summary:
 - Ensured app handles permission checks for microphone access  
 - Built a clean and accessible UI with minimal distractions  
 Note: This feature lays the foundation for future AI/NLP-based voice command modules
+
+------------------------------------------------------------
+
+🟢 Task 8: Profile Photo Picker  
+Status: ✅ Completed  
+Folder: Project-tasks/task8-profile-photo-picker  
+Summary:  
+- Implemented functionality to allow users to select a profile image from device storage  
+- Added a circular ImageView to display the chosen profile photo  
+- Handled permission checks for reading external storage (Android 13+ compatible)  
+- Used `ActivityResultLauncher` for selecting image safely  
+- Stored image URI in SharedPreferences to retain user choice across app restarts  
+- Updated UI dynamically with Glide for smooth image loading and cropping  
+Note: This feature enhances user personalization and helps in identifying users locally
 
 ------------------------------------------------------------
 
