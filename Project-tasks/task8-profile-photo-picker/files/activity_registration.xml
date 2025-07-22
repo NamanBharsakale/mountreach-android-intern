@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:id="@+id/ivBack"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icon_back"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#D18B8B">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:padding="8dp"
+            app:cardBackgroundColor="#A1CCED"
+            app:cardCornerRadius="70dp">
+            <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_my_profile" />
+
+        </androidx.cardview.widget.CardView>
+
+      <Button
+          android:layout_width="210dp"
+          android:layout_height="35dp"
+          android:id="@+id/btnChangePicture"
+          android:text="Change Profile Picture"
+          android:textSize="15dp"/>
+
+
+        <TextView
+            android:id="@+id/last_visit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Last visit: 14/7/2024"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FAECEC"
+        android:padding="16dp">
+
+
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/icon_write"
+                android:textColor="#455156"/>
+
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:drawableLeft="@drawable/icon_phone"
+            android:textColor="#455156"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/icon_email"
+            android:textColor="#455156"
+            android:layout_marginTop="10dp"/>
+
+
+
+        <EditText
+            android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/icon_tick"
+            android:textColor="#455156"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/icon_password"
+            android:textColor="#455156"
+            android:layout_marginTop="10dp"/>
+
+
+
+<LinearLayout
+    android:layout_width="350dp"
+    android:layout_height="60dp"
+    android:layout_marginTop="16dp"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="Sign Out"
+        android:id="@+id/btnLogOut"
+        android:textColor="#D52B2B"
+        android:backgroundTint="@color/white"
+        android:layout_margin="10dp"
+     />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="Save Changes"
+        android:id="@+id/btnSaveCanges"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
