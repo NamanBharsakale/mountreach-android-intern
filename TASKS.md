@@ -113,7 +113,7 @@ Summary:
 - Implemented functionality to allow users to select a profile image from device storage  
 - Added a circular ImageView to display the chosen profile photo  
 - Handled permission checks for reading external storage (Android 13+ compatible)  
-- Used `ActivityResultLauncher` for selecting image safely  
+- Used ActivityResultLauncher for selecting image safely  
 - Stored image URI in SharedPreferences to retain user choice across app restarts  
 - Updated UI dynamically with Glide for smooth image loading and cropping  
 Note: This feature enhances user personalization and helps in identifying users locally
@@ -125,14 +125,29 @@ Status: ✅ Completed
 Folder: Project-tasks/task9-qr-generator  
 Summary:  
 - Developed a screen to dynamically generate a QR code using user data  
-- Fetched the stored `username` from SharedPreferences after login  
+- Fetched the stored username from SharedPreferences after login  
 - Used the ZXing (Zebra Crossing) library to generate a scannable QR bitmap  
 - Displayed QR image in a full-screen responsive layout using ImageView  
-- Included user greeting (`Welcome <username>`) and app branding (e.g., "Polytechnic Amravati")  
+- Included user greeting ("Welcome <username>") and app branding ("Polytechnic Amravati")  
 - QR can be scanned by any standard scanner; content is plain text (username only)  
 - Added a back button to return to the home screen smoothly  
 - Ensured logic is encapsulated in a clean QRActivity.java with proper error handling  
-Note: This feature can be extended to encode more complex data like authentication tokens or URLs in future versions.
+Note: This feature can be extended to encode more complex data like authentication tokens or URLs in future versions
+
+------------------------------------------------------------
+
+🟢 Task 10: Firebase Messaging (Push Notifications)  
+Status: ✅ Completed  
+Folder: Project-tasks/task10-firebase-messaging  
+Summary:  
+- Integrated Firebase Cloud Messaging (FCM) into the app to receive push notifications  
+- Set up Firebase project in the console, generated google-services.json, and added to the app module  
+- Configured dependencies for Firebase Messaging and services in the Gradle files  
+- Implemented required Firebase Services and updated the AndroidManifest accordingly  
+- Due to security policies and sensitive credentials, code-level implementation is not shared  
+- Instead, only screenshots of the working notification and configuration process are documented  
+- The actual code written is minimal and focuses mainly on setting up FCM receivers and manifest entries  
+Note: This task prioritized cloud integration security and was documented via screenshots instead of source upload
 
 ------------------------------------------------------------
 
