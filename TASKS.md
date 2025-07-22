@@ -60,6 +60,21 @@ Each task has its own folder under the `Project-tasks/` directory for detailed d
 
 ---
 
+### 🟢 Task 5: Music Player UI & Media Playback
+**Status:** ✅ Completed  
+**Folder:** [`Project-tasks/task5-music-player`](./Project-tasks/task5-music-player/)  
+**Summary:**
+- Designed a **CardView-based Music Player UI** with `ImageView`, `TextView`, and `SeekBar`  
+- Used **custom drawables** for Play, Pause, Forward, and Backward buttons  
+- Implemented **local audio playback** using `MediaPlayer`  
+- Enabled **seek functionality** via `SeekBar` and synchronized playback time using `Handler`  
+- Added **previous/next track switching**, as well as **10s forward/backward jump** features  
+- Applied custom logic for dynamic UI updates (song name, cover image, time labels)  
+- Released `MediaPlayer` responsibly to avoid memory leaks  
+🎵 **Note:** Audio and image resources used are stored locally within `res/raw` and `res/drawable`
+
+---
+
 > 📂 **Note:** From **Task 3 onwards**, only files with major logic/code changes are uploaded to avoid duplication. Supporting files may exist in earlier task folders.  
 > 📱 **Device Note:** The project was continued and pushed to GitHub after a year due to a device change post-internship. Folder contents are restored manually and logically structured.
 
