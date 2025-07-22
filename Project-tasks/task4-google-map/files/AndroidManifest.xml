@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MySplashScr"
+        tools:targetApi="31">
+
+        <!--
+             TODO: Replace with your actual Google Maps API key safely using local.properties.
+
+             1. Go to https://developers.google.com/maps/documentation/android-sdk/get-api-key
+             2. Add the key to your local.properties file as:
+                    MAPS_API_KEY=AIza...your_key_here
+             3. Reference it in Gradle and use it via manifest placeholder.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+        <activity
+            android:name=".MyLocationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_my_location" />
+
+        <activity
+            android:name=".AboutUsActivity"
+            android:exported="false"
+            android:theme="@style/ShowActionBar" />
+
+        <activity
+            android:name=".ContactUsActivity"
+            android:exported="false"
+            android:theme="@style/ShowActionBar" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:theme="@style/ShowActionBar" />
+
+        <activity
+            android:name=".MyProfileActivity"
+            android:exported="false"
+            android:theme="@style/ShowActionBar" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:theme="@style/ShowActionBar" />
+
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false"
+            android:theme="@style/ShowActionBar" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/ShowActionBar" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
