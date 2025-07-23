@@ -1,0 +1,60 @@
+🟢 Task 10: Firebase Messaging (Push Notifications)
+Status: ✅ Completed
+Folder: Project-tasks/task10-firebase-messaging
+
+Summary:
+This task involved integrating Firebase Cloud Messaging (FCM) into the Epic Verse Android application to enable cloud-based push notifications. FCM is used to send real-time messages and alerts to users even when the app is not actively in use.
+
+Detailed Steps Implemented:
+
+1. Firebase Console Setup:
+   - A new project was created on the Firebase Console named "EpicVerse-FCM".
+   - The Android app package name was registered and the SHA-1 fingerprint was added for security and authentication.
+   - The `google-services.json` file was downloaded and placed in the app-level directory of the project.
+
+2. Android Project Configuration:
+   - Firebase and Google Services dependencies were added to the project's `build.gradle` files:
+     - In the root `build.gradle`:
+       ```
+       classpath 'com.google.gms:google-services:4.3.15'
+       ```
+     - In the app-level `build.gradle`:
+       ```
+       implementation 'com.google.firebase:firebase-messaging:23.3.1'
+       apply plugin: 'com.google.gms.google-services'
+       ```
+   - MultiDex was enabled to prevent method limit issues (if necessary).
+
+3. Firebase Messaging Service Setup:
+   - A custom service class `MyFirebaseMessagingService` was created extending `FirebaseMessagingService`.
+   - The `onMessageReceived()` and `onNewToken()` methods were overridden to handle incoming push messages and token refresh logic.
+   - Token was logged and tested using Firebase Console’s manual notification feature.
+
+4. Manifest Configuration:
+   - Necessary permissions were added to `AndroidManifest.xml`:
+     ```xml
+     <uses-permission android:name="android.permission.INTERNET"/>
+     ```
+   - The service was registered:
+     ```xml
+     <service
+         android:name=".MyFirebaseMessagingService"
+         android:exported="false">
+         <intent-filter>
+             <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+         </intent-filter>
+     </service>
+     ```
+
+5. Notification Testing and Output:
+   - Notifications were sent directly from Firebase Console using test device tokens.
+   - Screenshots were captured showing notifications received in both foreground and background states.
+   - Custom logic and UI notification styling were not the focus for this phase.
+
+6. Security and Sharing Limitations:
+   - Due to potential security risks (e.g., exposing Firebase project credentials or tokens), the actual source code and credentials are not shared in the GitHub repository.
+   - Instead, screenshots of key steps and results are uploaded in the folder `task10-firebase-messaging/screenshots/`.
+
+Note:
+- Firebase Messaging was implemented with minimal coding – the bulk of the task was configuration-based.
+     
