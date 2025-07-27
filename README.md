@@ -40,6 +40,6 @@ Each task includes code snippets, folder structure references, screenshots, and 
 ```bash
 /tasks/
 ├── task1-login-registration/
-├── task2-bottom-navigation/
+├── task2-navigation-dialogs/
 ├── ...
 └── ....
