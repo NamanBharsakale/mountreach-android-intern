@@ -34,7 +34,7 @@ Each task includes code snippets, folder structure references, screenshots, and 
 
 > 📱 The app **Epic Verse** is currently a locally run Android application and has not been deployed.
 
-
+>It was very good experience of being trainee and intern at Mountreach Pvt. Ltd.
 📌 **See the `TASKS.md` file** for a complete list of tasks, progress, and detailed tracking.
 
 ```bash
